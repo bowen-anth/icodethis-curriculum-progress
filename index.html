@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Progress Bar from https://codepen.io/ahmedabdelhafiz/pen/JmYVJJ -->
     <title>Curriculum Progress</title>
   </head>
   <body>
     <div class="card-container">
       <div class="progress">
-        <span class="title timer" data-from="0" data-to="70" data-speed="1500"
-          >70</span
-        >
+        <span class="title title-top">Progress</span><br />
+        <span class="title" data-from="0" data-to="70" data-speed="1500"
+          >70%</span
+        ><br /><span>Progress</span>
         <div class="overlay"></div>
         <div class="left"></div>
         <div class="right"></div>
       </div>
-      <p class="curriculum"></p>
-      <div>
+
+      <div class="chapter-over-container">
+        <p class="curriculum">Curriculum</p>
         <div class="chapter-container">
           <button class="button white"></button>
           <div class="p-container">
